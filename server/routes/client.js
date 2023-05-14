@@ -1,0 +1,11 @@
+const express = require("express");
+const getProducts = require("../controllers/client");
+const getCustomers = require("../controllers/customers");
+const getTransactions = require("../controllers/transaction");
+const getGeography = require("../controllers/geography");
+const router = express.Router();
+router.get("/products", getProducts);
+router.get("/customers", getCustomers);
+router.get("/transactions", getTransactions);
+router.get("/geography", getGeography);
+module.exports = router;
