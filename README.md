@@ -1,6 +1,6 @@
 # admins-dashboard
 
-In this website  the owner can see his products with an amazing card,
+On this website  the owner of the company can see his products with an amazing card,
 his customers with an incredible  material ui datagrid design and he can sort the table by their name or id or occupation or phone number or email and country as well as he can choose
 how many rows he wants to see per page,
 the transactions and can make the above sorting parameters in customer,
